@@ -33,11 +33,15 @@ marklar.nameFile['colors'] = './color-names.txt';
 var name = marklar.getName('colors'));
 ```
 
+If you need a batch of names generated, you can do:
+
+`var name = marklar.getNames('colors', 10)); // an array of 10 names`
+
 ##Motivation
-I wrote this to generate names for a guitar multi-effects random patch generstor.
+I wrote this to generate names for a guitar multi-effects random patch generator.
 
 ##Attribution
-This code relies heavily on code by drow <drow@bin.sh> sourced from http://donjon.bin.sh/code/name/name_generator.js
+This package relies heavily on code by drow <drow@bin.sh> sourced from http://donjon.bin.sh/code/name/name_generator.js
 
 ##Licensing
 
