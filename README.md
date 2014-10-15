@@ -2,7 +2,7 @@
 
 ##Description
 
-A random name generstor for Node.js based on Markov chains.
+A random name generator for Node.js based on Markov chains.
 
 Give marklar a list of names (words) and it will generate similar-sounding names in a random fashion. More input will provide better, and more varied, output.
 
