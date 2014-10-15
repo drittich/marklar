@@ -41,7 +41,7 @@ If you need a batch of names generated, you can do:
 I wrote this to generate names for a guitar multi-effects random patch generator.
 
 ##Attribution
-This package relies heavily on code by drow <drow@bin.sh> sourced from http://donjon.bin.sh/code/name/name_generator.js
+This package is essentially a wrapper around code by drow <drow@bin.sh>, sourced from http://donjon.bin.sh/code/name/name_generator.js.
 
 ##Licensing
 
