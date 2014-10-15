@@ -23,19 +23,19 @@ You can assign source names directly:
 var marklar = require('marklar');
 
 marklar.nameList['colors'] = ['red', 'green', 'yellow', 'blue', 'orange', 'black', 'purple'];
-var name = marklar.getName('colors')); // blueng
+var name = marklar.getName('colors'); // blueng
 ```
 Or, you can provide the path to a newline-delimited list of names:
 ```
 var marklar = require('marklar');
 
 marklar.nameFile['colors'] = './color-names.txt';
-var name = marklar.getName('colors'));
+var name = marklar.getName('colors');
 ```
 
 If you need a batch of names generated, you can do:
 
-`var name = marklar.getNames('colors', 10)); // an array of 10 names`
+`var name = marklar.getNames('colors', 10); // an array of 10 names`
 
 ##Motivation
 I wrote this to generate names for a guitar multi-effects random patch generator.
